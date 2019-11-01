@@ -1,0 +1,89 @@
+---
+title: "plotly"
+output: 
+   html_document:
+     code_folding: hide 
+     toc: true
+     toc_float: true
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(flexdashboard)
+library(plotly)
+```
+
+
+**using ny_noaa**
+
+
+
+```{r}
+data(ny_noaa)
+
+ny_noaa = 
+  janitor::clean_names(ny_noaa) %>% 
+  separate(date, c("year", "month", "day"), sep = "-") %>% 
+  mutate(prcp = prcp / 10,
+         tmax = as.numeric(tmax) / 10,
+         tmin = as.numeric(tmin) / 10)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+## Box Plot
+
+Generate a boxplot to describe Average Max Temperature in 2010 in Each Station Across 12 month
+
+
+```{r}
+ny_noaa %>% 
+  filter(year == "2010", month %in% c("01", "02", "03", "04", "05", "06", "07", "08","09","10","11","12")) %>% 
+  group_by(id, year, month) %>% 
+  summarize(mean_tmax = mean(tmax, na.rm = T)) %>% 
+  plot_ly(y = ~mean_tmax, color = ~month, type = "box",
+          colors = "Set2") %>% 
+  layout(title = "Average Max Temperature in 2010 in Each Station Across 12 month")
+```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+## Barplot
+
+Generate a barplot to describe precipitation in Each Month of 2010
+
+```{r}
+ny_noaa %>% 
+  filter(year == "2010") %>% 
+  plot_ly(x = ~month, y = ~prcp, color = ~month, type = "bar") %>% 
+  layout(title = "precipitation in Each Month of 2010") 
+ 
+```
+
+
+### Chart C
+
+## Line Plot
+
+Generate a line plot to describeAverage snowfall through observation years
+
+
+```{r}
+ny_noaa %>% 
+  group_by(year) %>% 
+  filter(!is.na(snow)) %>% 
+  summarise(snowfall = mean(snow)) %>% 
+  plot_ly(x = ~year, y = ~snowfall, type = "scatter",mode = "lines") %>%
+  layout(title = "Average snowfall through observation years")
+```
+
+
