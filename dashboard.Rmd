@@ -1,24 +1,18 @@
 ---
-title: "plotly"
+title: "My first dashboard"
 output: 
-   html_document:
-     code_folding: hide 
-     toc: true
-     toc_float: true
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
 ```{r setup, include=FALSE}
+library(flexdashboard)
 library(tidyverse)
 library(viridis)
 library(p8105.datasets)
-library(flexdashboard)
 library(plotly)
 ```
-
-
-**using ny_noaa**
-
-
 
 ```{r}
 data(ny_noaa)
@@ -32,11 +26,10 @@ ny_noaa =
 ```
 
 
+Column {data-width=650}
+-----------------------------------------------------------------------
 
-## Box Plot
-
-Generate a boxplot to describe Average Max Temperature in 2010 in Each Station Across 12 month
-
+### Chart A
 
 ```{r}
 ny_noaa %>% 
@@ -48,12 +41,11 @@ ny_noaa %>%
   layout(title = "Average Max Temperature in 2010 in Each Station Across 12 month")
 ```
 
+Column {data-width=350}
+-----------------------------------------------------------------------
 
 
-
-## Barplot
-
-Generate a barplot to describe precipitation in Each Month of 2010
+### Chart B
 
 ```{r}
 ny_noaa %>% 
@@ -63,13 +55,7 @@ ny_noaa %>%
  
 ```
 
-
-
-
-## Line Plot
-
-Generate a line plot to describeAverage snowfall through observation years
-
+### Chart C
 
 ```{r}
 ny_noaa %>% 
@@ -79,5 +65,3 @@ ny_noaa %>%
   plot_ly(x = ~year, y = ~snowfall, type = "scatter",mode = "lines") %>%
   layout(title = "Average snowfall through observation years")
 ```
-
-

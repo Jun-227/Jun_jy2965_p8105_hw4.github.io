@@ -5,7 +5,7 @@ navbar:
   right:
     - text: "Resume"
       href: resume.html
-    - text: "plotly"
+    - text: "Plotly&Dashboard"
       menu:
       - text: "Plotly"
         href: plotly.html
