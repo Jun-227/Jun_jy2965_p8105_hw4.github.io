@@ -12,41 +12,41 @@ E-mail: jy2965@cumc.columbia.edu 		Tel.: 347-277-0190
 
 ### Education
 
-*Columbia University, Mailman School of Public Health, New York, NY                       expected May 2020*
+**Columbia University, Mailman School of Public Health, New York, NY                       expected May 2020**
 Master of Public Health, Biostatistics, Certificate in Advanced  Epidemiology
 
-*Beijing Normal University, College of Life Science, Beijing, China                             Sep. 2014 - July. 2018*
+**Beijing Normal University, College of Life Science, Beijing, China                             Sep. 2014 - July. 2018**
 Bachelor of Science in Biotechnology 
 
 
 ### Technical Skills
 
-*Programming*: SAS(SAS Advance Certificate), R, Linux, SQL, Tableau, JAVA, Python, Perl, C/C++, Microsoft Office (Word, Excel, PowerPoint).
+**Programming**: SAS(SAS Advance Certificate), R, Linux, SQL, Tableau, JAVA, Python, Perl, C/C++, Microsoft Office (Word, Excel, PowerPoint).
 
 
 ### Research Experiences   
 
-*Clinical Data Analyst*           Columbia University                           New York, NY           Aug. 2019 – present
+**Clinical Data Analyst**           Columbia University                           New York, NY           Aug. 2019 – present
 Supervisor: Dr. Marie-Louise Meng, MD 
 •	Contributed to improve prognosis system of C-section by managing to build a prediction model on C-section outcomes in R and improving the model by finding and testing new clinical meaningful cut-off points of six primary predictors through over 1000 times calculation in R with a dataset contains more than 1500 subjects.
 •	Found new clinical meaningful predictor based on old model and increased acuity and accurateness of prediction model applying in population with hypertensive disorder in R. 
 
 
-*Clinical Data Analyst*      New York Presbyterian Hospital	        New York, NY           May. 2019 – Aug. 2019
+**Clinical Data Analyst**      New York Presbyterian Hospital	        New York, NY           May. 2019 – Aug. 2019
 Supervisor: Cristina Fernandez, MD, MPH
 •	Performed investigation of the effect demographic characteristics as well as the effect of availability of healthcare utility on Sickle Cell Disease outcomes by managing to extract, transform and load Pediatric patients information from Electronical Medical Record System and conducting data cleaning using Excel and SAS.
 •	Performed various data analysis, modeling and data visualization in SAS with a dataset of 12 demographic variables and 18 laboratory indicators in more than 500 patients.
 •	Conducted longitudinal epidemiology study to explore the effect of social factors and healthcare utilization on disease outcome through 2007 to 2012 by using SAS. 
 
 
-*Research Assistant*    University of North Carolina at Chapel Hill   Chapel Hill, NC    Aug. 2017 – Oct. 2017
+**Research Assistant**    University of North Carolina at Chapel Hill   Chapel Hill, NC    Aug. 2017 – Oct. 2017
 Supervisor: Professor Yun Li
 •	Improved imputation quality by cleaning out genetic database by using Linux System and used principal component analysis (PCA) on Minor Allele Frequency data to visualize the relationship of subjects.
 •	Conducted genotype imputation and evaluation by using Eagle and  Minimac3 in Linux System.
 •	Adjusted subject classification to improve the qualification of imputation.
 
 
-*Research Assistant*     Beijing Normal University       Beijing, China                             Sept 2016 – May2017
+**Research Assistant**     Beijing Normal University       Beijing, China                             Sept 2016 – May2017
 Supervisor: Professor Zongjie Cui
 •	Anatomized the neonatal mice and took out hippocampus to prepare materials for next step experiments.
 •	Cultivated hippocampal neurons for and detected cytoplasmic calcium oscillations to get control group. Transfected plasmids which is constructed with SOPP gene into the cells to observe if the cells had cytoplasmic calcium oscillations. Chose cells which the SOPP protein could express and detect cytoplasmic calcium oscillations to analyze the infection of SOPP protein.
@@ -54,13 +54,13 @@ Supervisor: Professor Zongjie Cui
 
 ### Academic Experiences   
 
-*Data Analyst*     Columbia University                         New York, NY                            April. 2019 – May. 2019
+**Data Analyst**     Columbia University                         New York, NY                            April. 2019 – May. 2019
 Supervisor: Dr. Jihui Lee
 •	Discovered correlation between cardiovascular disease and patients vital information by analyzing 1400 patients data from four national hospitals in SAS. 
 •	Established two prediction models on predicting the presence of cardiovascular disease with pretest results, the other one is to predict the severity of  heart disease which is represented by number of narrow vessels with pretest results.
 
 
-*Research Assistant*      Beijing Normal University         Beijing, China                          Dec. 2017 – May 2018
+**Research Assistant**      Beijing Normal University         Beijing, China                          Dec. 2017 – May 2018
 Supervisor: Professor Xiaolong Fan
 •	Innovated former morphological classification method by applying new genetic EM/PM classification method of glioma to conduct research on analyzing glioma transcriptome mRNA splicing.
 •	Found difference between transcriptome mRNA of glioma with or without PTBP1 protein amplification by using Linux in order to analyze the effects of PTBP1 protein on transcriptome and predict the trigger of glioma. 
