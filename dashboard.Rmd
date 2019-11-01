@@ -1,5 +1,5 @@
 ---
-title: "My first dashboard"
+title: "Untitled"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
@@ -13,6 +13,7 @@ library(viridis)
 library(p8105.datasets)
 library(plotly)
 ```
+
 
 ```{r}
 data(ny_noaa)
@@ -44,7 +45,6 @@ ny_noaa %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-
 ### Chart B
 
 ```{r}
@@ -65,3 +65,4 @@ ny_noaa %>%
   plot_ly(x = ~year, y = ~snowfall, type = "scatter",mode = "lines") %>%
   layout(title = "Average snowfall through observation years")
 ```
+
