@@ -1,0 +1,12 @@
+---
+title: "Jun's website"
+output: 
+   html_document:
+     toc: true
+     toc_float: true
+---
+
+
+# This is Jun's website
+
+You can check my resume [here](resume.html)
